@@ -17,6 +17,7 @@ A webpage for a fictional concert hall where you input your information and in r
 | **Program Collects User Input concert**| "Shia labeouf's weepy spectacular" | "Shia labeouf's weepy spectacular" |
 | **Program Calculates and Displays Price and Name According to User Inputs**| "Shia labeouf's weepy spectacular" | "Your Purchase Comes Out To: $60.00. Please Enjoy Your Show, Kelsey" |
 | **Program Alerts User When Age Is Less Than 18**| "11" | "Sorry! This show is for age groups 18+!" |
+| **Program Hides Ticket Output When Age Is Less Than 18**| "11" | " " |
 | **Program Discounts User When Age Is 50 Or Above**| "50" | "Enjoy your $5.00 Off Senior Discount on us!" |
 | **Program Outputs $5.00 Discounted Ticket Price When User Age Is 50 Or Above**| "50" | "Your Purchase Comes Out To: $55.00. Please Enjoy Your Show, Kelsey" |
 
