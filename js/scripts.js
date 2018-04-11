@@ -18,15 +18,16 @@ $(document).ready(function() {
     event.preventDefault();
     var name = $("input#name").val();
     var age = parseInt($("input#age").val());
+    var concert = $('#concert option:selected').val();
     if (age <= 18) {
       alert("Sorry! This show is for age groups 18+!");
       hide("#output");
     } else if (age >= 50) {
-      alert("Enjoy your 10% Off Senior Discount on us!");
-      return(newConcert);
+      alert("Enjoy your 10% Off Senior Discount on us!");;
+      $("#output2").append("Your Purchase Comes Out To: $" + concert * (10-100 /100) + ".00." + " Please Enjoy Your Show, " + name);
+      hide("#output")
     }
-    var concert = $('#concert option:selected').val();
-    var newConcert = $('#concert option:selected') * (1 - concert/100).val();
+
 
     $("#output").append("Your Purchase Comes Out To: $" + concert + ".00." + " Please Enjoy Your Show, " + name);
   })
