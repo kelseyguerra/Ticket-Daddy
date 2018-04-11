@@ -36,3 +36,6 @@ form {
 label {
   text-align: left;
 }
+output {
+  font-size: 20px;
+}

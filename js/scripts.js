@@ -1,9 +1,9 @@
 // Business Logic
 
 function Ticket(name, age, concert) {
-  this.name = inputName;
-  this.age = inputAge;
-  this.concert = inputConcert;
+  this.name = name;
+  this.age = age;
+  this.concert = concert;
 }
 
 Ticket.prototype.price = function() {
@@ -14,15 +14,12 @@ Ticket.prototype.price = function() {
 $(document).ready(function() {
   $("#orderForm").submit(function(event) {
     event.preventDefault();
-          var name = $("input#inputName").val();
-          var age = parseInt($("input#inputAge").val());
-          var concert = parseInt($("selected#inputConcert").val());
-          var newTicket = new Ticket;
-          console.log(Ticket);
+          var name = $("input#name").val();
+          var age = parseInt($("input#age").val());
+          var concert = parseInt($('input#concert').val());
+          var newTicket = new Ticket(name, age, concert);
 
-          $("#output").text("Total amount: $" + concert + ".00");
+
+          $("#output").text("Thanks for the Purchase, " + age + "!" + " Enjoy your Show!");
           })
-      });
-
-
- // parseInt($("input:select[name=inputConcert]:selected").val());
+          });
