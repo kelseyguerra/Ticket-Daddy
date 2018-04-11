@@ -9,12 +9,14 @@ background-image: url("../img/music.jpg");
 }
 
 .container {
-  background-color: black;
-  color: white;
+  background-color: #000000c9;
+  font-weight: 400;
+  color: #6bdfe6d4;
   max-width: 400px;
   margin-right: 100px;
   padding: 30px;
   border-radius: 50px;
+  border: inset white 3px;
 }
 
 h1 {
@@ -23,11 +25,14 @@ h1 {
   text-align: center;
   text-decoration: overline;
   text-decoration-style: wavy;
-  text-decoration-color: purple;
-  color: yellow;
+  text-decoration-color: #f7ff00d4;
+  color: #c71ac7;
 }
 
 form {
   float:right;
   max-width: 500px;
+}
+label {
+  text-align: left;
 }
