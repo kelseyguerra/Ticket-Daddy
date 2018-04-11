@@ -1,27 +1,28 @@
 // Business Logic
 
 function Ticket(name, age, concert) {
-  this.name = name;
-  this.age = age;
-  this.concert = concert;
+  this.name = inputName;
+  this.age = inputAge;
+  this.concert = inputConcert;
 }
 
 Ticket.prototype.price = function() {
-  return parseInt(this.concert) + 50;
+  return parseInt(this.concert).val();
 }
 
 // User Interface Logic
 $(document).ready(function() {
-  $("form#orderForm").submit(function(event) {
+  $("#orderForm").submit(function(event) {
     event.preventDefault();
-          var name = $("input#name").val();
-          var age = parseInt($("input#age").val());
-          var price = $("select#concert").val()
-          var newTicket = new Ticket + 50;
-          var ticketInfo = newTicket + ("")
-          console.log("hi");
+          var name = $("input#inputName").val();
+          var age = parseInt($("input#inputAge").val());
+          var concert = parseInt($("selected#inputConcert").val());
+          var newTicket = new Ticket;
+          console.log(Ticket);
 
-          $("#output").append("<li>" +
-            ticketInfo + "</li>");
+          $("#output").text("Total amount: $" + concert + ".00");
           })
       });
+
+
+ // parseInt($("input:select[name=inputConcert]:selected").val());
