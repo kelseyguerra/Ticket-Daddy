@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script href="js/scripts.js"></script>
-    <script href="js/jquery-3.3.1"></script>
-    <title>The Best Damn Theater in the World</title>
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script href="js/jquery-3.3.1.js"></script>
+  <script href="js/scripts.js"></script>
+  <title>The Best Damn Theater in the World</title>
+</head>
+
+<body>
+  <div class="container">
     <h1>Ticket Baby</h1>
     <!-- <div id="Slideshow" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -39,34 +41,32 @@
       </a>
     </div> -->
 
-    <form id="showtime">
+    <form id="orderForm">
       <div class="form-group">
-        <label for="inputName">Name</label>
-        <input type="text" class="form-control" id="inputName" placeholder="Name">
+        <label for="name">Name</label>
+        <input id="name" type="text" class="form-control" placeholder="name">
       </div>
       <div class="form-group">
-        <label for="inputAge">Age</label>
-        <input type="text" class="form-control" id="inputAge" placeholder="Age">
+        <label for="age">Age</label>
+        <input id="age" type="text" class="form-control" placeholder="age">
       </div>
+      <select class="form-control" id="concert">
           <label for="concert"> Select your showing:</label>
-          <select class="custom-select" id="concert">
           <option selected>Live Performances:</option>
-          <option name="concert" value="10">Smashed Mouth! The original Smash Mouth Cover Band</option>
-          <option name="concert" value="10">Steve Buscemi's Puppet Spectacular!</option>
-          <option name="concert" value="10">Shia Labeouf's Power Hour of Silence</option>
-          <option name="concert" value="10">Oasis's "Gonna Throw It Back To You" Tour</option>
-          <option name="concert" value="10">Rebuild Your Life: An Inspirational Evening With Mariah Carey</option>
+          <option value="10">Smashed Mouth! The original Smash Mouth Cover Band</option>
+          <option value="10">Steve Buscemi's Puppet Spectacular!</option>
+          <option value="10">Shia Labeouf's Power Hour of Silence</option>
+          <option value="10">Oasis's "Gonna Throw It Back To You" Tour</option>
+          <option value="10">Rebuild Your Life: An Inspirational Evening With Mariah Carey</option>
         </select>
+      <button type="submit" class="btn btn-danger" value="submit">Submit!</button>
+      <h1 id="output">
+          </h1>
+    </form>
+  </div>
 
-        <button type="submit" class= "btn btn-danger" value="subit" name="button">Submit!</button>
+  </div>
 
-        </form>
+</body>
 
-        <h1 id="#output">
-        </h1>
-      </div>
-
-    </div>
-
-  </body>
 </html>
