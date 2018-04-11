@@ -1,0 +1,10 @@
+img {
+max-width: 200px;
+align-items: center;
+}
+
+.container {
+text-align: center;
+background-color: beige;
+max-width: 500px;
+}
