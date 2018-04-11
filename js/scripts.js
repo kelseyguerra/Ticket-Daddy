@@ -16,10 +16,10 @@ $(document).ready(function() {
     event.preventDefault();
           var name = $("input#name").val();
           var age = parseInt($("input#age").val());
-          var concert = parseInt($('input#concert').val());
+          var concert = $('#concert option:selected').val();
           var newTicket = new Ticket(name, age, concert);
 
 
-          $("#output").text("Thanks for the Purchase, " + age + "!" + " Enjoy your Show!");
+          $("#output").append("Your Purchase Comes Out To: $" + concert + ".00." + " Please Enjoy Your Show, " + name);
           })
           });
