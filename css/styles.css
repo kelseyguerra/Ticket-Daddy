@@ -1,7 +1,8 @@
 body {
 max-width: 500px;
 text-align: center;
-font-family: sans-serif;
+font-family: 'VT323', monospace;
+font-size: 20px;
 float: right;
 margin-right: 330px;
 margin-top: 70px;
@@ -38,8 +39,17 @@ form {
 label {
   text-align: left;
 }
-output {
+#output{
   font-size: 40px;
+  font-family: 'VT323', monospace;
+  color: white;
+
+}
+#output2 {
+  font-size: 50px;
+  font-family: 'VT323', monospace;
+  color: white;
+
 }
 img {
   max-width: 280px;
