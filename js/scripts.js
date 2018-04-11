@@ -23,8 +23,8 @@ $(document).ready(function() {
       alert("Sorry! This show is for age groups 18+!");
       hide("#output");
     } else if (age >= 50) {
-      alert("Enjoy your 10% Off Senior Discount on us!");;
-      $("#output2").append("Your Purchase Comes Out To: $" + concert * (10-100 /100) + ".00." + " Please Enjoy Your Show, " + name);
+      alert("Enjoy your $5.00 Off Senior Discount on us!");;
+      $("#output2").append("Your Purchase Comes Out To: $" + (concert -5) + ".00." + " Please Enjoy Your Show, " + name);
       hide("#output")
     }
 
