@@ -1,7 +1,7 @@
 body {
 max-width: 500px;
 text-align: center;
-font-family: monospace;
+font-family: sans-serif;
 float: right;
 margin-right: 330px;
 margin-top: 70px;
@@ -14,19 +14,21 @@ background-image: url("../img/music.jpg");
   color: #6bdfe6d4;
   max-width: 400px;
   margin-right: 100px;
+  margin-bottom: 60px;
   padding: 30px;
   border-radius: 50px;
   border: inset white 3px;
 }
 
 h1 {
-  font-family: monospace;
   font-weight: 400;
+  font-size: 70px;
   text-align: center;
-  text-decoration: overline;
-  text-decoration-style: wavy;
+  text-decoration: underline;
+  text-decoration-style: dotted;
   text-decoration-color: #f7ff00d4;
   color: #8808c5;
+  font-family: 'Monoton', cursive;
 }
 
 form {
@@ -37,5 +39,5 @@ label {
   text-align: left;
 }
 output {
-  font-size: 20px;
+  font-size: 40px;
 }

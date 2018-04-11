@@ -16,6 +16,9 @@ $(document).ready(function() {
     event.preventDefault();
           var name = $("input#name").val();
           var age = parseInt($("input#age").val());
+            if (age <=18) {
+            alert("Sorry! This show is for age groups 18+!");
+          };
           var concert = $('#concert option:selected').val();
           var newTicket = new Ticket(name, age, concert);
 
