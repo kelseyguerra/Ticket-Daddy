@@ -1,10 +1,33 @@
-img {
-max-width: 200px;
-align-items: center;
+body {
+max-width: 500px;
+text-align: center;
+font-family: monospace;
+float: right;
+margin-right: 330px;
+margin-top: 70px;
+background-image: url("../img/music.jpg");
 }
 
 .container {
-text-align: center;
-background-color: beige;
-max-width: 500px;
+  background-color: black;
+  color: white;
+  max-width: 400px;
+  margin-right: 100px;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: monospace;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: overline;
+  text-decoration-style: wavy;
+  text-decoration-color: purple;
+  color: yellow;
+}
+
+form {
+  float:right;
+  max-width: 500px;
 }
