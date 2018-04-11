@@ -18,7 +18,7 @@ background-image: url("../img/music.jpg");
   margin-bottom: 60px;
   padding: 30px;
   border-radius: 50px;
-  border: inset white 3px;
+  border: outset #c3ff56f5 2px;
 }
 
 h1 {
@@ -30,6 +30,11 @@ h1 {
   text-decoration-color: #f7ff00d4;
   color: #8808c5;
   font-family: 'Monoton', cursive;
+  text-shadow:
+  -.5px -.5px 0 white,
+  .5px .5px 0 #f30095,
+  -.5px .5px 0 white,
+  .5px .5px 0 #f30095;
 }
 
 form {
