@@ -22,7 +22,7 @@ A webpage for a fictional concert hall where you input your information and in r
 
 ## Setup/Installation Requirements
 
-1. Visit https://github.com/kelseyguerra/Pizza-Maker.git
+1. Visit https://github.com/kelseyguerra/Ticket-Daddy.git
 2. Clone repository
 
 ## Known Bugs
